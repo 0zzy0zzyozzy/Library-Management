@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Библиотека - Вход в систему</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Автоматизированная библиотека</h1>
+        <nav>
+            <a href="index.html">Каталог</a>
+            <a href="reader.html">Личный кабинет</a>
+            <a href="librarian.html">Панель сотрудника</a>
+            <a href="login.html" class="active">Вход</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="card" style="max-width: 400px; margin: 3rem auto;">
+            <h2>Авторизация</h2>
+            <form>
+                <div class="form-group">
+                    <label for="username">Логин или номер билета:</label>
+                    <input type="text" id="username" placeholder="Введите логин">
+                </div>
+                <div class="form-group">
+                    <label for="password">Пароль:</label>
+                    <input type="password" id="password" placeholder="Введите пароль">
+                </div>
+                <a href="reader.html" class="btn" style="width: 100%; text-align: center;">Войти</a>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Информационная система управления библиотекой</p>
+    </footer>
+
+</body>
+</html>
